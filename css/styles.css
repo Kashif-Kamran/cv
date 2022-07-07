@@ -1,0 +1,110 @@
+body {
+    margin: 0%;
+}
+
+.left-container {
+    width: 15%;
+    padding: 1% 1% 1% 1%;
+    background-color: lightgreen;
+    text-align: right;
+    display: inline-block;
+    margin-left: 15%;
+
+}
+
+.profile-photo {
+    height: 150px;
+
+}
+
+.left-container h4 {
+    margin: 0 0 0 0;
+
+}
+
+.left-container p {
+    margin: 0 0 0 0;
+}
+
+.right-container {
+    width: 50%;
+    padding: 1% 1% 1% 1%;
+    background-color: lightblue;
+    position: absolute;
+    margin: 0% 0% 0% 0%;
+    top: 0%;
+    display: inline-block;
+}
+
+.heading {
+    background-color: lightyellow;
+}
+
+.heading h1 {
+    margin: 0%;
+    padding-bottom: 0%;
+}
+
+.heading h2 {
+    margin: 0%;
+    padding: 1%;
+}
+
+.disc-container {
+    background-color: azure;
+    width: 100%;
+
+}
+
+.topic-container {
+    background-color: rgb(8, 156, 32);
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.disc-container h3 {
+    background-color: red;
+
+}
+
+.detail-container {
+    background-color: lightcoral;
+    width: 80%;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.detail-container h4 {
+    padding: 0%;
+    padding-top: 1%;
+    margin: 0%;
+}
+
+.detail-container p {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.skills {
+    background-color: lightcoral;
+    width: 75%;
+    display: inline-block;
+}
+
+.skills h4 {
+    background-color: blue;
+    display: inline-block;
+    width: 20%;
+    margin: 1%;
+    padding: 0%;
+}
+
+.skills p {
+    background-color: orange;
+    display: inline-block;
+    width: 40%;
+    margin: 1%;
+    padding: 0%;
+}
