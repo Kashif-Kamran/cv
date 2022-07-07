@@ -8,12 +8,13 @@ body {
     background-color: lightgreen;
     text-align: right;
     display: inline-block;
+    border-radius: 15px;
 
 }
 
 .profile-photo {
     height: 150px;
-
+    border-radius: 100%;
 }
 
 .left-container h4 {
@@ -28,7 +29,6 @@ body {
 .right-container {
     width: 70%;
     padding: 1% 1% 1% 1%;
-    background-color: lightblue;
     position: absolute;
     margin: 0% 0% 0% 0%;
     top: 0%;
@@ -36,12 +36,15 @@ body {
 }
 
 .heading {
-    background-color: lightyellow;
+    background-color: cadetblue;
+    border-radius: 15px;
+    text-align: center;
 }
 
 .heading h1 {
     margin: 0%;
     padding-bottom: 0%;
+
 }
 
 .heading h2 {
@@ -52,26 +55,22 @@ body {
 .disc-container {
     background-color: azure;
     width: 100%;
-
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .topic-container {
-    background-color: rgb(8, 156, 32);
     width: 15%;
     display: inline-block;
     vertical-align: top;
 }
 
-.disc-container h3 {
-    background-color: red;
-
-}
+.disc-container h3 {}
 
 .detail-container {
-    background-color: lightcoral;
+    margin-top: 2%;
     width: 80%;
     display: inline-block;
-    vertical-align: center;
 }
 
 .detail-container h4 {
@@ -81,19 +80,18 @@ body {
 }
 
 .detail-container p {
+
     padding: 0%;
     margin: 0%;
 }
 
 
 .skills {
-    background-color: lightcoral;
     width: 75%;
     display: inline-block;
 }
 
 .skills h4 {
-    background-color: blue;
     display: inline-block;
     width: 20%;
     margin: 1%;
@@ -101,7 +99,6 @@ body {
 }
 
 .skills p {
-    background-color: orange;
     display: inline-block;
     width: 40%;
     margin: 1%;
