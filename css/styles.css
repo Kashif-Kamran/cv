@@ -1,11 +1,13 @@
 body {
-    margin: 0%;
+    margin: 5%;
+    font-family: sans-serif;
+
 }
 
 .left-container {
     width: 15%;
     padding: 1% 1% 1% 1%;
-    background-color: lightgreen;
+    background-color: #76BA99;
     text-align: right;
     display: inline-block;
     border-radius: 15px;
@@ -36,7 +38,8 @@ body {
 }
 
 .heading {
-    background-color: cadetblue;
+    margin-left: 50px;
+    background-color: #ADCF9F;
     border-radius: 15px;
     text-align: center;
 }
@@ -53,7 +56,7 @@ body {
 }
 
 .disc-container {
-    background-color: azure;
+    background-color: #CED89E;
     width: 100%;
     padding: 20px;
     border-radius: 15px;
@@ -65,7 +68,6 @@ body {
     vertical-align: top;
 }
 
-.disc-container h3 {}
 
 .detail-container {
     margin-top: 2%;
@@ -103,4 +105,12 @@ body {
     width: 40%;
     margin: 1%;
     padding: 0%;
+}
+
+.right-container br {
+    border-top: 1px solid #76BA99
+}
+
+.left-container a {
+    font-size: 80%;
 }
